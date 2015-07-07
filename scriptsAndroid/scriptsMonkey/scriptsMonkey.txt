@@ -1,1 +1,11 @@
 scriptsMonkey
+
+adb shell monkey <options>
+
+adb shell monkey -p com.myapp --throttle 500 -v 1000
+
+//http://developer.android.com/tools/help/monkey.html
+
+$ adb shell monkey [options] <event-count>
+
+$ adb shell monkey -p your.package.name -v 500
